@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Eater&family=Gochi+Hand&family=Poppins&family=Roboto&family=Skranji&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #DCD6F7;
+    font-family: "Bubblegum Sans",sans-serif;
+}
+
+h1,p{
+    text-align: center;
+}
+
+main{
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title{
+    margin-top: 5rem;
+    font-size: 70px;
+    font-family: "Bubblegum Sans",sans-serif;
+}
+
+.subtitle{
+    font-size: 40px;
+}
+
+@media screen and (max-width: 800px) {
+    .title{
+        font-size: 30px;
+    }
+    .subtitle{
+        font-size: 20px;
+    }
+}
+
+input{
+   padding-right: 12rem; 
+   padding-left: 1rem;
+   height: 4.5rem;
+   font-size: 18px;
+   line-height: 1;
+   border: none;
+   background-color: rgba(229, 231, 235, 1);   
+   border-top-left-radius: 8px;
+   border-bottom-left-radius: 8px;
+}
+
+input:focus{
+    outline: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@media screen and (max-width: 800px) {
+  input {
+    padding-right: 6rem;
+    padding-left: 1rem;
+    height: 2.5rem;
+    font-size: 16px;
+  }
+}
+
+button{
+    height: 4.5rem;
+    border: none;
+    position: absolute;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0 3.5rem;
+    cursor: pointer;
+    background-color: #424874;
+    color: #fff;
+    font-size: 14px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-weight: 700;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 800px) {
+  button {
+    padding: 0 1.5rem;
+    height: 2.5rem;
+    font-size: 16px;
+  }
+}
+
+.response{
+    margin-top: 2rem;
+    font-size: 30px;
+    font-family:"Gochi Hand",sans-serif ;
+}
