@@ -16,6 +16,8 @@ function handleSubmit(event){
 
 
 function checkYear(year){
+  if(year == 0)
+    return
   if((year % 400 == 0) || 
     ((year % 4 == 0) && 
     (year % 100 != 0))){
